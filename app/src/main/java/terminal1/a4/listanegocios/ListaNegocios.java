@@ -11,8 +11,6 @@ import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.util.List;
-
 import terminal1.a4.loginui.R;
 import terminal1.a4.loginui.mapa;
 import terminal1.a4.loginui.servicios;

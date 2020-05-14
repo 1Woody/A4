@@ -26,18 +26,17 @@
                 android:layout_gravity="center"
                 android:background="@drawable/btn_login"
                 android:stateListAnimator="@null"
-                android:text="Guardar cambios"
+                android:text="Registrarse"
                 android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
                 android:textSize="14dp"
                 android:textStyle="bold"
-                android:textColor="@drawable/txt_button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-                app:layout_constraintVertical_bias="0.431"
-                />
+                app:layout_constraintVertical_bias="0.431" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -45,11 +44,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
                 android:background="@color/blue"
-                android:text="Editar Datos de Usuario"
+                android:text="Editar Datos Usuario"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -62,7 +61,7 @@
                 android:layout_height="403dp"
                 android:layout_marginTop="44dp"
                 android:orientation="horizontal"
-                app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.464"
                 app:layout_constraintStart_toStartOf="parent"
@@ -287,17 +286,16 @@
                         android:textSize="14sp" />
 
                     <EditText
-                        android:id="@+id/Emaild"
+                        android:id="@+id/Serg"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@null"
                         android:ems="10"
                         android:hint="Email"
-                        android:inputType="none"
+                        android:inputType="textEmailAddress"
                         android:textColor="#3C3C3C"
                         android:textColorHint="#484848"
-                        android:textIsSelectable="false"
                         android:textSize="14sp"
                         tools:text="@android:string/defaultVoiceMailAlphaTag" />
 
